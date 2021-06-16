@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+body{
+  background: black;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.facility{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.facility h1{
+  color: white;
+}
+
+.fa-col{
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+}
+
+.fa-col img{
+	width: 100%;
+	border-radius: 10 px;
+}
+
+.fa-col p{
+	padding: 0;
+  color: white;
+}
+
+.fa-col h3{
+	margin-top: 16px;
+	margin-bottom: 15px;
+	text-align: left;
+  color: white;
+}
